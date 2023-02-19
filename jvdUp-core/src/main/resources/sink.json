@@ -1,0 +1,9 @@
+{
+  "name": "transform",
+  "signature": "",
+  "taintToRet": [0, 1],
+  "taintToCall": {
+    "0": "0",
+    "1": "1"
+  }
+}

@@ -2,6 +2,7 @@ package cn.chenforcode.config;
 
 import lombok.extern.slf4j.Slf4j;
 import soot.G;
+import soot.Main;
 import soot.Scene;
 import soot.options.Options;
 
@@ -38,6 +39,5 @@ public class SootConfig {
 //        PhaseOptions.v().setPhaseOption("cg","on");
         Scene.v().setSootClassPath(path);
         Scene.v().loadBasicClasses();
-
     }
 }

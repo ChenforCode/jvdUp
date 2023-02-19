@@ -1,0 +1,51 @@
+{
+  "entrySet": {
+    "name": "next",
+    "taintToRet": [
+      0
+    ]
+  },
+  "keySet": {
+    "name": "keySet",
+    "taintToRet": [
+      0
+    ]
+  },
+  "valueSet": {
+    "name": "valueSet",
+    "taintToRet": [
+      0
+    ]
+  },
+  "iterator": {
+    "name": "iterator",
+    "taintToRet": [
+      0
+    ]
+  },
+  "next": {
+    "name": "next",
+    "taintToRet": [
+      0
+    ]
+  },
+  "indexOf": {
+    "name": "indexOf",
+    "taintToRet": []
+  },
+
+  "addAll": {
+    "name": "addAll",
+    "taintToRet": []
+  },
+
+  "hasNext": {
+    "name": "hasNext",
+    "taintToRet": []
+  },
+
+  "getKey": {
+    "name": "getKey",
+    "taintToRet": [0]
+  }
+}

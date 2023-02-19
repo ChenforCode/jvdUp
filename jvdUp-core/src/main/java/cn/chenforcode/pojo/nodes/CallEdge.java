@@ -1,11 +1,11 @@
 package cn.chenforcode.pojo.nodes;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import soot.SootMethod;
 
-import java.util.List;
+import java.util.Map;
 
 /**
  * @author yumu
@@ -15,8 +15,12 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class CallEdge {
-    private SootMethod source;
-    private SootMethod target;
-    private List<Integer> interTaintInfo;
+    private String id;
+    private String sourceId;
+    private String sourceName;
+    private String targetId;
+    private String targetName;
+    private Map<Integer, Integer> interTaintInfo;
 }
